@@ -1,7 +1,4 @@
-# Antools-website
-Main page of website as a test task
-
-### antools website
+### Antools website
 #### [Ссылка на опубликованный проект](https://d-sapockij.github.io/Antools-website/)
 
 Главная страница сайта, выполненная в качестве тестового задания.
