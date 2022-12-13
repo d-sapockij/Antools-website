@@ -254,6 +254,10 @@ main {
   line-height: 150%;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.78) !important;
+  transition: color 0.2s ease !important;
+}
+.header__buttons-login:hover {
+  color: rgb(255, 255, 255) !important;
 }
 .header__buttons-sign {
   color: #FDF5FF !important;

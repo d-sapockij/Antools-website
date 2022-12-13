@@ -180,6 +180,10 @@ main {
         line-height: 150%;
         font-weight: $semibold;
         color: rgba(255, 255, 255, 78%) !important;
+        transition: color 0.2s ease !important;
+        &:hover {
+            color: rgba(255, 255, 255, 1) !important;
+        }
     }
 
     &__buttons-sign {
