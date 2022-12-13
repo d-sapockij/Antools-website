@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Antools</title>
+        <meta name="description" content="Antool is a web collection of information on paid or free Design and Development tools">
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrapper">
+                <div class="header__row">
+                    <a href="#">
+                        <div class="header__logo">
+                            <img src="img/logos/antools-logo.svg" alt="antools-logo" class="header__logo-img">
+                            <span class="header__logo-name">
+                                antools.
+                            </span>
+                        </div>
+                    </a>
+                    <nav class="header__menu">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <a href="#">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#">
+                                    Categories
+                                </a>
+                                <svg class="header__menu-arrow" width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 0.75L6 5.25L10.5 0.75" stroke="white" stroke-opacity="inherit" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                    
+                                <ul class="header__menu-sublist">
+                                    <li class="header__menu-subitem">
+                                        <a href="#">
+                                            Design
+                                        </a>
+                                    </li>
+                                    <li class="header__menu-subitem">
+                                        <a href="#">
+                                            Development
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#">
+                                    My Collections
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#">
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__buttons">
+                        <a href="#" class="header__buttons-login">
+                            Login
+                        </a>
+                        <a href="#" class="button header__buttons-sign">
+                            Sign Up
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <img class="hero__bg" src="img/hero-bg.svg" alt="bg">
+                <div class="wrapper">
+                    <h1 class="hero__title h1">
+                        Awesome tools for
+                        Designer & Developer<span>.</span>
+                    </h1>
+                    <p class="hero__subtitle subtitle">
+                        Antool is a web collection of information on paid or free Design and Development tools
+                    </p>
+                    <form action="#" method="get" class="hero__search">
+                        <div class="hero__search-border">
+                            <input name="search" placeholder="find more than 430+ tools..." type="search" class="hero__search-input" autocomplete="off">
+                        </div>
+                        <button type="submit" class="hero__search-button button">
+                            Search
+                        </button>
+                        <svg class="hero__search-icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#7A7F82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 20.9999L16.65 16.6499" stroke="#7A7F82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </form>
+                    <div class="hero__links">
+                        <a href="#">
+                            <svg class="hero__links-item" width="inherit" height="inherit" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.0955 31.4955V19.2015H24.243L24.8595 14.388H20.0955V11.322C20.0955 9.93301 20.4825 8.98201 22.476 8.98201H25.002V4.69051C23.7729 4.5588 22.5376 4.4952 21.3015 4.50001C17.6355 4.50001 15.1185 6.73801 15.1185 10.8465V14.379H10.998V19.1925H15.1275V31.4955H20.0955Z" fill="inherit" fill-opacity="inherit"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="hero__links-item" width="inherit" height="inherit" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.9985 11.0654C16.159 11.0654 14.3948 11.7962 13.094 13.0969C11.7933 14.3977 11.0625 16.1619 11.0625 18.0014C11.0625 19.841 11.7933 21.6052 13.094 22.9059C14.3948 24.2067 16.159 24.9374 17.9985 24.9374C19.838 24.9374 21.6022 24.2067 22.903 22.9059C24.2037 21.6052 24.9345 19.841 24.9345 18.0014C24.9345 16.1619 24.2037 14.3977 22.903 13.0969C21.6022 11.7962 19.838 11.0654 17.9985 11.0654ZM17.9985 22.5059C16.8034 22.5059 15.6573 22.0312 14.8123 21.1862C13.9672 20.3411 13.4925 19.195 13.4925 17.9999C13.4925 16.8049 13.9672 15.6587 14.8123 14.8137C15.6573 13.9687 16.8034 13.4939 17.9985 13.4939C19.1936 13.4939 20.3397 13.9687 21.1847 14.8137C22.0298 15.6587 22.5045 16.8049 22.5045 17.9999C22.5045 19.195 22.0298 20.3411 21.1847 21.1862C20.3397 22.0312 19.1936 22.5059 17.9985 22.5059Z" fill="inherit" fill-opacity="inherit"/>
+                                <path d="M25.209 12.4275C26.1021 12.4275 26.826 11.7035 26.826 10.8105C26.826 9.91744 26.1021 9.19348 25.209 9.19348C24.316 9.19348 23.592 9.91744 23.592 10.8105C23.592 11.7035 24.316 12.4275 25.209 12.4275Z" fill="inherit" fill-opacity="inherit"/>
+                                <path d="M30.7995 9.16645C30.4522 8.26972 29.9216 7.45537 29.2415 6.77553C28.5614 6.0957 27.7468 5.56535 26.85 5.21845C25.8005 4.82448 24.6918 4.61146 23.571 4.58845C22.1265 4.52545 21.669 4.50745 18.006 4.50745C14.343 4.50745 13.8735 4.50745 12.441 4.58845C11.3211 4.61028 10.2131 4.82335 9.16499 5.21845C8.26789 5.56495 7.45314 6.09515 6.77299 6.77504C6.09285 7.45493 5.56233 8.26948 5.21549 9.16645C4.82145 10.2159 4.60891 11.3247 4.58699 12.4454C4.52249 13.8884 4.50299 14.3459 4.50299 18.0104C4.50299 21.6734 4.50299 22.1399 4.58699 23.5754C4.60949 24.6974 4.82099 25.8044 5.21549 26.8559C5.56331 27.7526 6.09433 28.5668 6.77464 29.2466C7.45495 29.9264 8.26959 30.4568 9.16649 30.8039C10.2126 31.2137 11.321 31.442 12.444 31.4789C13.8885 31.5419 14.346 31.5614 18.009 31.5614C21.672 31.5614 22.1415 31.5614 23.574 31.4789C24.6946 31.4562 25.8033 31.2437 26.853 30.8505C27.7496 30.5027 28.5639 29.9719 29.2439 29.2919C29.924 28.6119 30.4548 27.7976 30.8025 26.9009C31.197 25.851 31.4085 24.7439 31.431 23.622C31.4955 22.1789 31.515 21.7214 31.515 18.0569C31.515 14.3924 31.515 13.9274 31.431 12.4919C31.4135 11.3554 31.1999 10.2303 30.7995 9.16645ZM28.9725 23.4644C28.9628 24.3289 28.805 25.1853 28.506 25.9964C28.2807 26.5798 27.9359 27.1094 27.4936 27.5515C27.0513 27.9935 26.5214 28.338 25.938 28.5629C25.1358 28.8606 24.2885 29.0184 23.433 29.0294C22.008 29.0954 21.606 29.1119 17.952 29.1119C14.295 29.1119 13.9215 29.1119 12.4695 29.0294C11.6144 29.019 10.7675 28.8612 9.96599 28.5629C9.38052 28.3394 8.84849 27.9955 8.40433 27.5534C7.96016 27.1113 7.61374 26.5809 7.38749 25.9964C7.09266 25.194 6.93496 24.3477 6.92099 23.4929C6.85649 22.0679 6.84149 21.6659 6.84149 18.0119C6.84149 14.3564 6.84149 13.9829 6.92099 12.5294C6.93069 11.6655 7.08847 10.8096 7.38749 9.99895C7.84499 8.81545 8.78249 7.88395 9.96599 7.43095C10.7679 7.13416 11.6145 6.97639 12.4695 6.96445C13.896 6.89995 14.2965 6.88195 17.952 6.88195C21.6075 6.88195 21.9825 6.88195 23.433 6.96445C24.2886 6.97474 25.136 7.13255 25.938 7.43095C26.5214 7.65636 27.0512 8.00125 27.4934 8.44349C27.9357 8.88573 28.2806 9.41555 28.506 9.99895C28.8008 10.8014 28.9585 11.6477 28.9725 12.5024C29.037 13.9289 29.0535 14.3294 29.0535 17.9849C29.0535 21.6389 29.0535 22.0319 28.989 23.466H28.9725V23.4644Z" fill="inherit" fill-opacity="inherit"/>
+                            </svg>  
+                        </a>
+                        <a href="#">
+                            <svg class="hero__links-item" width="inherit" height="inherit" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M29.4495 11.9956C29.469 12.2581 29.469 12.5191 29.469 12.7801C29.469 20.7676 23.3895 29.9716 12.279 29.9716C8.856 29.9716 5.676 28.9801 3 27.2581C3.486 27.3136 3.954 27.3331 4.4595 27.3331C7.17899 27.3396 9.82147 26.4303 11.961 24.7516C10.7001 24.7287 9.47786 24.3128 8.46486 23.5617C7.45185 22.8106 6.69868 21.7619 6.3105 20.5621C6.684 20.6176 7.059 20.6551 7.452 20.6551C7.9935 20.6551 8.538 20.5801 9.0435 20.4496C7.67514 20.1733 6.44471 19.4316 5.56143 18.3506C4.67815 17.2696 4.19654 15.916 4.1985 14.5201V14.4451C5.004 14.8936 5.9385 15.1741 6.9285 15.2116C6.09913 14.6604 5.41908 13.9126 4.94901 13.0348C4.47894 12.1569 4.23347 11.1763 4.2345 10.1806C4.2345 9.05857 4.533 8.02957 5.0565 7.13257C6.57471 9.0001 8.46825 10.5279 10.6145 11.6171C12.7608 12.7062 15.1118 13.3324 17.5155 13.4551C17.4225 13.0051 17.3655 12.5386 17.3655 12.0706C17.3651 11.277 17.5211 10.4912 17.8246 9.75793C18.1281 9.0247 18.5732 8.35848 19.1343 7.79735C19.6954 7.23622 20.3616 6.79118 21.0949 6.48768C21.8281 6.18418 22.6139 6.02817 23.4075 6.02857C25.1475 6.02857 26.718 6.75756 27.822 7.93657C29.1747 7.67499 30.4718 7.1812 31.656 6.47706C31.2051 7.87329 30.2606 9.05722 28.9995 9.80707C30.1992 9.67023 31.3717 9.35474 32.478 8.87107C31.6517 10.0757 30.6278 11.1321 29.4495 11.9956Z" fill="inherit" fill-opacity="inherit"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="popular">
+                <div class="wrapper">
+                    <h2 class="popular__title h2">
+                        Most Popular Tools
+                    </h2>
+                    <p class="popular__subtitle subtitle">
+                        Tools for the best Designers and Developers most popularly used in the world
+                    </p>
+                    <div class="popular__grid grid">
+                        <div class="grid__item-wrapper">
+                            <div class="grid__item">
+                                <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                <div class="grid__item-title">
+                                    <div class="grid__item-logo">
+                                        <img src="img/icons/figma-icon.svg" alt="FIGMA">
+                                    </div>
+                                    <div>
+                                        <p class="grid__item-name">
+                                            FIGMA
+                                        </p>
+                                        <p class="grid__item-price">
+                                            Free
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                <p class="grid__item-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <div class="grid__item-actions">
+                                    <div>
+                                        <label class="grid__item-like">
+                                            <input type="checkbox">
+                                            <div class="grid__item-like-icon">
+                                            </div>
+                                        </label>
+                                        <label class="grid__item-add">
+                                            <input type="checkbox">
+                                            <div class="grid__item-add-icon">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <a href="#" class="grid__item-button">
+                                        Visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__item-wrapper">
+                            <div class="grid__item">
+                                <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                <div class="grid__item-title">
+                                    <div class="grid__item-logo">
+                                        <img src="img/icons/sketch-icon.svg" alt="Sketch">
+                                    </div>
+                                    <div>
+                                        <p class="grid__item-name">
+                                            Sketch
+                                        </p>
+                                        <p class="grid__item-price">
+                                            Trial & Paid
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                <p class="grid__item-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <div class="grid__item-actions">
+                                    <div>
+                                        <label class="grid__item-like">
+                                            <input type="checkbox">
+                                            <div class="grid__item-like-icon">
+                                            </div>
+                                        </label>
+                                        <label class="grid__item-add">
+                                            <input type="checkbox">
+                                            <div class="grid__item-add-icon">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <a href="#" class="grid__item-button">
+                                        Visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="grid__item-wrapper">
+                            <div class="grid__item">
+                                <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                <div class="grid__item-title">
+                                    <div class="grid__item-logo">
+                                        <img src="img/icons/vs-icon.svg" alt="Visual Studio Code">
+                                    </div>
+                                    <div>
+                                        <p class="grid__item-name">
+                                            Visual Studio Code
+                                        </p>
+                                        <p class="grid__item-price">
+                                            Free
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                <p class="grid__item-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <div class="grid__item-actions">
+                                    <div>
+                                        <label class="grid__item-like">
+                                            <input type="checkbox">
+                                            <div class="grid__item-like-icon">
+                                            </div>
+                                        </label>
+                                        <label class="grid__item-add">
+                                            <input type="checkbox">
+                                            <div class="grid__item-add-icon">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <a href="#" class="grid__item-button">
+                                        Visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__item-wrapper">
+                            <div class="grid__item">
+                                <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                <div class="grid__item-title">
+                                    <div class="grid__item-logo">
+                                        <img src="img/icons/notion-icon.svg" alt="Notion">
+                                    </div>
+                                    <div>
+                                        <p class="grid__item-name">
+                                            Notion
+                                        </p>
+                                        <p class="grid__item-price">
+                                            Free & Paid
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                <p class="grid__item-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <div class="grid__item-actions">
+                                    <div>
+                                        <label class="grid__item-like">
+                                            <input type="checkbox">
+                                            <div class="grid__item-like-icon">
+                                            </div>
+                                        </label>
+                                        <label class="grid__item-add">
+                                            <input type="checkbox">
+                                            <div class="grid__item-add-icon">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <a href="#" class="grid__item-button">
+                                        Visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__item-wrapper">
+                            <div class="grid__item">
+                                <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                <div class="grid__item-title">
+                                    <div class="grid__item-logo">
+                                        <img src="img/icons/slack-icon.svg" alt="Slack">
+                                    </div>
+                                    <div>
+                                        <p class="grid__item-name">
+                                            Slack
+                                        </p>
+                                        <p class="grid__item-price">
+                                            Free & Paid
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                <p class="grid__item-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <div class="grid__item-actions">
+                                    <div>
+                                        <label class="grid__item-like">
+                                            <input type="checkbox">
+                                            <div class="grid__item-like-icon">
+                                            </div>
+                                        </label>
+                                        <label class="grid__item-add">
+                                            <input type="checkbox">
+                                            <div class="grid__item-add-icon">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <a href="#" class="grid__item-button">
+                                        Visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__item-wrapper">
+                            <div class="grid__item">
+                                <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                <div class="grid__item-title">
+                                    <div class="grid__item-logo">
+                                        <img src="img/icons/invision-icon.svg" alt="Invision">
+                                    </div>
+                                    <div>
+                                        <p class="grid__item-name">
+                                            Invision
+                                        </p>
+                                        <p class="grid__item-price">
+                                            Free & Paid
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                <p class="grid__item-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <div class="grid__item-actions">
+                                    <div>
+                                        <label class="grid__item-like">
+                                            <input type="checkbox">
+                                            <div class="grid__item-like-icon">
+                                            </div>
+                                        </label>
+                                        <label class="grid__item-add">
+                                            <input type="checkbox">
+                                            <div class="grid__item-add-icon">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <a href="#" class="grid__item-button">
+                                        Visit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="popular__button">
+                        Load more
+                    </button>
+                </div>
+            </section>
+            <section class="trust">
+                <div class="wrapper">
+                    <div class="trust__container">
+                        <h3 class="trust__title">
+                            Trusted more than 150+ brand
+                        </h3>
+                        <div class="trust__table">
+                            <div class="trust__table-item">
+                                <img src="img/logos/microsoft-logo.svg" alt="microsoft-logo">
+                            </div>
+                            <div class="trust__table-item">
+                                <img src="img/logos/google-logo.svg" alt="google-logo">
+                            </div>
+                            <div class="trust__table-item">
+                                <img src="img/logos/slack-logo.svg" alt="slack-logo">
+                            </div>
+                            <div class="trust__table-item">
+                                <img src="img/logos/wordpress-logo.svg" alt="wordpress-logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="newscommer">
+                <div class="wrapper">
+                    <div class="newscommer__columns">
+                        <div class="newscommer__columns-item">
+                            <h2 class="newscommer__title h2">
+                                Newcomer Tools
+                            </h2>
+                            <p class="newscommer__subtitle subtitle">
+                                Wow! see the latest update of the most recommended tools from reliable designers and developers
+                            </p>
+                            <a href="#" class="newscommer__button button">
+                                Explore more
+                            </a>
+                        </div>
+                        <div class="newscommer__grid grid">
+                            <div class="grid__item-wrapper">
+                                <div class="grid__item">
+                                    <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                    <div class="grid__item-title">
+                                        <div class="grid__item-logo">
+                                            <img src="img/logos/zeplin-logo.svg" alt="zeplin-logo">
+                                        </div>
+                                        <div>
+                                            <p class="grid__item-name">
+                                                Zeplin
+                                            </p>
+                                            <p class="grid__item-price">
+                                                Free & Paid
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                    <p class="grid__item-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="grid__item-actions">
+                                        <div>
+                                            <label class="grid__item-like">
+                                                <input type="checkbox">
+                                                <div class="grid__item-like-icon">
+                                                </div>
+                                            </label>
+                                            <label class="grid__item-add">
+                                                <input type="checkbox">
+                                                <div class="grid__item-add-icon">
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <a href="#" class="grid__item-button">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__item-wrapper">
+                                <div class="grid__item">
+                                    <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                    <div class="grid__item-title">
+                                        <div class="grid__item-logo">
+                                            <img src="img/logos/phpstorm-logo.svg" alt="phpstorm-logo">
+                                        </div>
+                                        <div>
+                                            <p class="grid__item-name">
+                                                PHPStorm
+                                            </p>
+                                            <p class="grid__item-price">
+                                                Free
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="grid__item-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="grid__item-actions">
+                                        <div>
+                                            <label class="grid__item-like">
+                                                <input type="checkbox">
+                                                <div class="grid__item-like-icon">
+                                                </div>
+                                            </label>
+                                            <label class="grid__item-add">
+                                                <input type="checkbox">
+                                                <div class="grid__item-add-icon">
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <a href="#" class="grid__item-button">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__item-wrapper">
+                                <div class="grid__item">
+                                    <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                    <div class="grid__item-title">
+                                        <div class="grid__item-logo">
+                                            <img src="img/logos/toolbox-logo.svg" alt="Toolbox">
+                                        </div>
+                                        <div>
+                                            <p class="grid__item-name">
+                                                Toolbox
+                                            </p>
+                                            <p class="grid__item-price">
+                                                Free
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                    <p class="grid__item-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="grid__item-actions">
+                                        <div>
+                                            <label class="grid__item-like">
+                                                <input type="checkbox">
+                                                <div class="grid__item-like-icon">
+                                                </div>
+                                            </label>
+                                            <label class="grid__item-add">
+                                                <input type="checkbox">
+                                                <div class="grid__item-add-icon">
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <a href="#" class="grid__item-button">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__item-wrapper">
+                                <div class="grid__item">
+                                    <img src="img/item-bg.svg" alt="bg" class="grid__item-bg">
+                                    <div class="grid__item-title">
+                                        <div class="grid__item-logo">
+                                            <img src="img/logos/procreate-logo.svg" alt="procreate-logo">
+                                        </div>
+                                        <div>
+                                            <p class="grid__item-name">
+                                                Procreate
+                                            </p>
+                                            <p class="grid__item-price">
+                                                Paid
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                    <p class="grid__item-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="grid__item-actions">
+                                        <div>
+                                            <label class="grid__item-like">
+                                                <input type="checkbox">
+                                                <div class="grid__item-like-icon">
+                                                </div>
+                                            </label>
+                                            <label class="grid__item-add">
+                                                <input type="checkbox">
+                                                <div class="grid__item-add-icon">
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <a href="#" class="grid__item-button">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery">
+                <div class="wrapper">
+                    <div class="gallery__slider slider">
+                        <div class="slider__wrapper">
+                            <div class="slider__buttons">
+                                <div class="slider__buttons-prev slider__buttons-item">
+                                    <svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 26L2 14L14 2" stroke="inherit" stroke-opacity="inherit" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <div class="slider__buttons-next slider__buttons-item">
+                                    <svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 2L14 14L2 26" stroke="inherit" stroke-opacity="inherit" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="slider__container">
+                                <div class="slider__track">
+                                    <div class="slider__item">
+                                        <div class="slider__item-img">
+                                            <img src="img/gallery/1.png" alt="Ronald Richards">
+                                            <div class="slider__item-name">
+                                                <p class="slider__item-title">
+                                                    Ronald Richards
+                                                </p> 
+                                                <p class="slider__item-job">
+                                                    Product Manager
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slider__item-text">
+                                            <p>
+                                                Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="slider__item">
+                                        <div class="slider__item-img">
+                                            <img src="img/gallery/1.png" alt="Martin James">
+                                            <div class="slider__item-name">
+                                                <p class="slider__item-title">
+                                                    Martin James
+                                                </p> 
+                                                <p class="slider__item-job">
+                                                    Developer
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slider__item-text">
+                                            <p>
+                                                Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="slider__item">
+                                        <div class="slider__item-img">
+                                            <img src="img/gallery/1.png" alt="Ronald Richards">
+                                            <div class="slider__item-name">
+                                                <p class="slider__item-title">
+                                                    Matthew Marshall
+                                                </p> 
+                                                <p class="slider__item-job">
+                                                    Community manager
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slider__item-text">
+                                            <p>
+                                                Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__pagination">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="form">
+                <div class="wrapper">
+                    <h2 class="form__title h2">
+                        Become a contributor?
+                    </h2>
+                    <p class="form__subtitle subtitle">
+                        Join us and get tips & tricks to become a great Designer and Developer
+                    </p>
+                    <form action="#" method="get" class="form__form">
+                        <div class="form__form-border">
+                            <input name="search" placeholder="Enter your email..." type="email" class="form__form-input" autocomplete="off">
+                        </div>
+                        <button type="submit" class="form__form-button button">
+                            Join Us
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__columns">
+                    <div class="footer__col">
+                        <a href="#">
+                            <div class="footer__logo">
+                                <img src="img/logos/antools-logo.svg" alt="antools-logo" class="footer__logo-img">
+                                <span class="footer__logo-name">
+                                    antools.
+                                </span>
+                            </div>
+                        </a>
+                        <div class="footer__copyright">
+                            <a href="#">
+                                Copyright 2021. Antools
+                            </a>
+                        </div>
+                        <div class="footer__description">
+                            Antool is a web collection of information on paid or free Design and Development tools
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__title">
+                            Contact Us
+                        </div>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="tel:+621987463">
+                                    +621987463
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                M Building, No.10 A
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="mailto:antools@awesome.com">
+                                    antools@awesome.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__title">
+                            Categories
+                        </div>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#">
+                                    Design
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#">
+                                    Development
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__title">
+                            Company Info
+                        </div>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#">
+                                    Our Partners
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#">
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/slider.js"></script>
+    </body>
+</html>
+
