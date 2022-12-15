@@ -26,18 +26,31 @@ prevBtn.addEventListener('click', () => {
     changeSlide('prev')
 })
 
-function changeSlide(direction) {
+for (let el of pagArray) {
+    el.addEventListener('click', (event) => {
+        changeSlide('null', event)        
+    })
+}
+
+
+function changeSlide(direction, event) {
+    
     if (direction === 'next') {
         activeSlideIndex++
         if (activeSlideIndex === slideCount) {
             activeSlideIndex = 0;
         }
     }
+
     if (direction === 'prev') {
         activeSlideIndex--
         if (activeSlideIndex < 0) {
             activeSlideIndex = slideCount - 1;
         }
+    }
+
+    if (direction === 'null') {
+        activeSlideIndex = pagArray.indexOf(event.target)
     }
 
     for (let el of slides) {
@@ -54,28 +67,3 @@ function changeSlide(direction) {
 
     sliderTrack.style.transform = `translateX(-${activeSlideIndex * width}px)`
 }
-
-for (let el of pagArray) {
-    el.addEventListener('click', (event) => {
-        pickSlide(event)        
-    })
-}
-
-function pickSlide(event) {
-    for (let el of slides) {
-        el.classList.remove('active')
-    }
-
-    for (let el of pagArray) {
-        el.classList.remove('active')
-    }
-    
-    event.target.classList.add('active')
-    activeSlideIndex = pagArray.indexOf(event.target)
-
-    slides[activeSlideIndex].classList.add('active')
-
-    const width = container.clientWidth
-    sliderTrack.style.transform = `translateX(-${activeSlideIndex * width}px)`
-}
-
